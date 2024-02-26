@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+## 한국어 버전
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#### 프로젝트 실행 방법
 
-## Available Scripts
+이 프로젝트를 실행하기 전에, 몇 가지 사전 준비가 필요합니다. 아래의 지침을 따라주세요.
 
-In the project directory, you can run:
+##### 사전 요구 사항
+- MetaMask 지갑이 설치되어 있어야 합니다. MetaMask는 [공식 웹사이트](https://metamask.io/)에서 설치할 수 있습니다.
+- Sepolia Ethereum 테스트넷 계정이 필요합니다. MetaMask를 통해 Sepolia 테스트넷을 추가하고, 계정을 생성하세요.
 
-### `npm start`
+##### 설치 및 실행
+1. 프로젝트의 루트 디렉토리로 이동합니다.
+2. 다음 명령어를 통해 필요한 패키지를 설치합니다.
+   ```
+   npm install
+   ```
+3. 다음 명령어로 애플리케이션을 실행합니다.
+   ```
+   npm start
+   ```
+4. 애플리케이션이 실행되면, 브라우저에서 [http://localhost:3000](http://localhost:3000)으로 접속하여 프로젝트를 확인할 수 있습니다.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+##### MetaMask 설정
+- MetaMask 확장 프로그램을 열고, Sepolia 테스트넷에 연결하세요.
+- 애플리케이션에서 지갑 연결을 요청하면, MetaMask 지갑을 통해 요청을 승인해 주세요.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+이제 프로젝트가 성공적으로 실행되었습니다. 테스트 트랜잭션을 보내보고, Ethereum 테스트넷에서의 작동을 확인해 보세요.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## English Version
 
-### `npm run build`
+#### How to Run the Project
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Before running this project, there are a few prerequisites you need to take care of. Please follow the instructions below.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+##### Prerequisites
+- You need to have MetaMask wallet installed. You can install MetaMask from the [official website](https://metamask.io/).
+- A Sepolia Ethereum testnet account is required. Add the Sepolia testnet through MetaMask and create an account.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+##### Installation and Execution
+1. Navigate to the root directory of the project.
+2. Install the necessary packages with the following command.
+   ```
+   npm install
+   ```
+3. Start the application with the following command.
+   ```
+   npm start
+   ```
+4. Once the application is running, access the project by going to [http://localhost:3000](http://localhost:3000) in your browser.
 
-### `npm run eject`
+##### MetaMask Setup
+- Open the MetaMask extension and connect to the Sepolia testnet.
+- When the application requests to connect to your wallet, approve the request through the MetaMask wallet.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Your project should now be running successfully. Try sending a test transaction and observe how it operates on the Ethereum testnet.
